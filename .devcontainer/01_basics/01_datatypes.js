@@ -24,3 +24,12 @@ let marks = null
 let stringMarks = Boolean(marks)
 console.log(typeof(marks));
 console.log(stringMarks);
+
+let num = "33abc"
+let numValue = Number(num)
+console.log(numValue);
+console.log(typeof(numValue));
+
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false => 0
