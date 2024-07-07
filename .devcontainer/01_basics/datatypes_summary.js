@@ -29,7 +29,7 @@ console.log(id === anotherId);
 console.log(id);
 console.log(anotherId);
 
-const bigNumber = 1234345385743973634874376n 
+const bigNumber = 1234345385743973634874376n
 //(Automatically value is converted into bigint using n)
 
 //Examples of non-primitive datatypes
@@ -44,14 +44,37 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof(bigNumber));
-console.log(typeof(outsideTemp));
-console.log(typeof(score));
-console.log(typeof(scoreValue));
-console.log(typeof(isLoggedin));
-console.log(typeof(userEmail));
-console.log(typeof(id));
-console.log(typeof(anotherId));
-console.log(typeof(heroes));
-console.log(typeof(myObj));
-console.log(typeof myFunction);
+// console.log(typeof(bigNumber));
+// console.log(typeof(outsideTemp));
+// console.log(typeof(score));
+// console.log(typeof(scoreValue));
+// console.log(typeof(isLoggedin));
+// console.log(typeof(userEmail));
+// console.log(typeof(id));
+// console.log(typeof(anotherId));
+// console.log(typeof(heroes));
+// console.log(typeof(myObj));
+// console.log(typeof myFunction);
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "Samar"
+
+let anotherName = myName
+console.log(anotherName);
+console.log(myName);
+anotherName = "Shyam"
+
+console.log(myName)
+console.log(anotherName);
+
+let userOne = {
+  email: "user@google.com",
+  upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "samasadh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

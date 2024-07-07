@@ -61,7 +61,7 @@ let negValue = -value
 
 let num1, num2, num3
 
-num1 = num2 = num3 = 2 + 2
+num1 = num2 = num3 = 2 + 2 // aigulo lekhar kono mane hoi na
 
 let gameCounter = 100;
 gameCounter++;
