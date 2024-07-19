@@ -7,4 +7,10 @@
 
 ( (name) =>  {
     console.log(`Hello, ${name}`);
-})("Samar")
+})("Samar");
+
+(function addTwo(a,b){
+    //NAMED IIFE
+    console.log(a+b);
+})(3,2);
+

@@ -32,7 +32,7 @@ function one(){
 if (true) {
     const username = "hitesh"
     if (username === "hitesh") {
-        const website = " youtube"
+        const website = " youtube";
         // console.log(username + website);
     }
     // console.log(website);
